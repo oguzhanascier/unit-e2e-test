@@ -13,5 +13,6 @@ describe("pokeCard.vue", () => {
     });
     vm.$mount(container);
     expect(vm.$el.querySelectorAll("img").length).to.equal(1);
+    expect(vm.$el.querySelectorAll("div").length).to.equal(6);
   });
 });
