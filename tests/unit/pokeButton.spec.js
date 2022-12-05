@@ -9,7 +9,11 @@ describe("pokeButton.vue", () => {
     const vm = new pokeButtonComp();
     vm.$mount(container);
 
-    expect(vm.$el.firstChild.tagName).to.equal('BUTTON')
+    /// firstChild & lastChild should not
 
+    expect(vm.$el.firstChild.tagName).to.equal("BUTTON");
   });
+
+
+  it('should emit event when button is clicked')
 });
