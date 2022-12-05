@@ -14,7 +14,7 @@ describe("pokeCard.vue", () => {
     vm.$mount(container);
     expect(vm.$el.querySelectorAll("img").length).to.equal(1);
     expect(vm.$el.querySelector(".pokeImg").firstChild.tagName).to.equal('IMG');
-    expect(vm.$el.querySelector(".pokeImg").firstChild.src).to.contain('/150.png');
+    expect(vm.$el.querySelector(".pokeImg").firstChild.src).to.contain('.png');
     expect(vm.$el.querySelectorAll("div").length).to.equal(6);
   });
 });
