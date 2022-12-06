@@ -19,9 +19,14 @@ describe("pokeButton.vue", () => {
     expect(vm.$el.firstChild.tagName).to.equal("BUTTON");
   });
 
-//   it("should emit event when button is clicked", () => {
-//     const spy = sinon.spy(vm, '$emit');
-//     vm.$el.firstChild.click();
-//     expect(spy.called).to.be.true;
-//   });
+  it("should emit event when button is clicked", () => {
+    // const spy = sinon.spy(vm, '$emit');
+    // vm.$el.lastChild.click();
+
+    // expect(spy.called).to.be.true;
+
+    // console.log(spy.args);
+  });
+
+
 });
