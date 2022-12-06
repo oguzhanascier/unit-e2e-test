@@ -20,12 +20,12 @@ describe("pokeButton.vue", () => {
   });
 
   it("should emit event when button is clicked", () => {
-    // const spy = sinon.spy(vm, '$emit');
-    // vm.$el.lastChild.click();
+    const spy = sinon.spy(vm, '$emit');
+    vm.$el.lastChild.click();
 
-    // expect(spy.called).to.be.true;
+    expect(spy.called).to.be.true;
 
-    // console.log(spy.args);
+    console.log(spy.args);
   });
 
 
